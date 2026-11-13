@@ -3,7 +3,7 @@ Disease Surveillance Platform
 # 2025-26 copyright beta ori inc. canada all rights reserved
 # author awase khirni syed
 https://github.com/awasekhirni/uofw/blob/main/MultiScaleDynamicHumanMobility_epidemiology-27Jan_ZB.pdf
-
+https://www.facebook.com/reel/1116758274471794
 
 I have recently learnt from a friend about this news feed.
 https://www.facebook.com/reel/1666230234893777 
