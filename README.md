@@ -12,3 +12,9 @@ We need to have active monitoring module of such incidents to protect innocent p
 What new modules do we need to include to actively monitor threats like these. 
 Was covid similar attempt to depopulate china and a precursor to current wars? Not sure.
 But we need to have active monitoring schema to be included to save people from fascists worldwide
+
+
+https://www.sciencedirect.com/science/article/pii/S2667041021000100
+Applications of venom biodiversity in agriculture
+
+Need to add new modules to track and capture the impact
