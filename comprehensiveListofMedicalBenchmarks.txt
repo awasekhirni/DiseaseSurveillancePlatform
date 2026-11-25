@@ -1,1 +1,67 @@
+Copyright 2025-26 Beta ORI Inc. All Rights Reserved.
+Syed, Awase Khirni Ph.D
 
+No,Benchmark,Description,Category,Specialized Medical LLM (Best),Top Proprietary LLM,Top Open-Source LLM,Metric
+1,MedQA (USMLE),Evaluate professional clinical reasoning skills using USMLE-style multiple-choice questions.,Knowledge,96.2,95.0,89.5,Accuracy
+2,MedMCQA,"Large-scale, multi-subject, multi-choice dataset for medical domain QA (Indian medical entrance exams).",Knowledge,91.5,88.2,82.0,Accuracy
+3,MMLU Clinical Knowledge,Evaluates factual and practical understanding of real-world medicine and clinical scenarios.,Knowledge,97.5,96.5,92.0,Accuracy
+4,MMLU College Medicine,"Tests foundational college-level medical knowledge across anatomy, physiology, and pathology.",Knowledge,95.8,94.1,88.5,Accuracy
+5,MMLU Professional Medicine,"Advanced, board-certified level medical knowledge and complex clinical decision-making.",Knowledge,94.5,93.0,86.0,Accuracy
+6,MedBullets,Apply clinical knowledge: Answer questions similar to those found on Step 2 and Step 3 US medical board exams.,Knowledge,90.3,89.0,81.0,Accuracy
+7,HeadQA,"Medical knowledge assessed via multiple-choice questions from professional healthcare education exams (MIR, Spain).",Knowledge,93.9,90.1,85.0,Accuracy
+8,PubMedQA,Reading comprehension: Answering biomedical research questions (Yes/No/Maybe) from PubMed abstract context.,Comprehension,82.0,76.0,71.5,Accuracy
+9,BioASQ-QA,"Biomedical QA challenge requiring exact answers, snippets, and summaries from scientific literature.",Comprehension,89.0,85.0,78.0,F1 Score
+10,HealthSearchQA,Open-ended consumer health questions derived from real-world web search queries.,Documentation,84.5,81.0,75.0,ROUGE-L
+11,ExpertQA,"Expert-written, open-ended medical questions requiring long-form, cited, and nuanced clinical answers.",Reasoning,88.2,85.5,78.0,Win Rate
+12,MediQA,"General medical reasoning and question answering across complex, varied clinical scenarios (multiple sub-tasks).",Reasoning,78.1,76.1,70.5,Accuracy
+13,CareQA,Multichoice QA dataset based on the access exam for Spanish Specialised Healthcare Training (FSE).,Knowledge,89.0,85.0,79.0,Accuracy
+14,CMExam,Comprehensive Chinese medical exam benchmark covering clinical licensing and residency standardized tests.,Knowledge,92.5,88.0,83.0,Accuracy
+15,Medec EM,"Medical entity extraction, identifying symptoms, drugs, and procedures within clinical text.",NER,85.0,68.0,67.0,F1 Score
+16,MTSamples Procedures,Procedural understanding: Identifying and extracting surgical or medical procedures from clinical reports.,Procedures,73.8,71.6,65.0,F1 Score
+17,BC5CDR,Biomedical named entity recognition and relation extraction for chemicals and diseases from PubMed abstracts.,NER / RE,88.5,84.0,78.0,F1 Score
+18,NLM-Chem,Manually annotated full-text resources for chemical entity annotation and indexing in biomedical articles.,NER,86.2,81.5,75.0,F1 Score
+19,MedNLI,"Natural language inference in the clinical domain: determining entailment, contradiction, or neutral from clinical notes.",Inference,89.5,85.0,79.0,Accuracy
+20,MedSTS,Clinical semantic textual similarity: estimating the similarity between pairs of clinical sentences.,Similarity,91.0,88.0,82.0,Pearson Corr.
+21,ACI-Bench F1,Structured clinical note and code generation from ambient doctor-patient conversation recordings.,Documentation,85.2,83.4,78.0,F1 Score
+22,MeQSum,"Summarization of consumer health questions into concise, medically accurate summaries.",Documentation,82.5,79.0,72.0,ROUGE-L
+23,MIMIC-RRS,Radiology report summarization and generation based on MIMIC-CXR imaging findings and clinical context.,Documentation,87.0,84.5,76.0,CHEXpert F1
+24,MedicationQA,"Provide accurate, accessible, and informative medication-related responses to open-ended consumer health questions.",Documentation,80.9,70.2,65.0,Accuracy
+25,MedDialog F1,Clinical dialogue comprehension: Quality of understanding and response in patient-provider conversations.,Dialogue,76.3,75.9,70.0,F1 Score
+26,MediQ,Question-asking LLM benchmark for adaptive and reliable clinical reasoning through multi-turn clarification.,Dialogue,84.0,80.0,73.0,Task Success
+27,MedCalc,"Clinical calculations and medical formulas (dosage, risk scores) applied from patient vignettes.",Calculations,48.0,44.0,34.0,Accuracy
+28,EHRSQL EM,"Translating natural language questions into SQL queries for Electronic Health Record databases (e.g., MIMIC-IV).",SQL / EHR,34.0,29.0,22.0,Exact Match
+29.MIMIC-Extract,Structured phenotyping and data extraction from MIMIC-III intensive care unit clinical notes.,EHR / NLP,83.0,78.0,71.0,F1 Score
+30,i2b2 2010 (Relations),"Extracting clinical concepts, assertions, and relations (problems, treatments, tests) from discharge summaries.",Relation Ext.,87.5,83.0,76.0,F1 Score
+31,i2b2 2014 (De-identification),Annotating longitudinal clinical narratives for PHI de-identification and privacy compliance.,Privacy / NER,95.0,92.0,88.0,F1 Score
+32,MedAgentBench,"Virtual EHR environment benchmarking multi-step agentic workflows, tool use, and clinical decision-making.",Agentic,72.5,68.0,55.0,Task Success
+33,HealthBench,"Realistic healthcare scenarios evaluating consult, writing, and research use cases with clinician-validated rubrics.",Reasoning,85.0,82.0,74.0,Clinician Score
+34,LLMEval-Med,"Real-world clinical benchmark with physician-validated questions across specialized, open, and closed models.",Reasoning,88.5,86.0,79.0,Accuracy
+35,ClinicalBench,Direct comparison of LLMs against traditional clinical NLP systems on real-world hospital data tasks.,Clinical NLP,86.0,82.0,75.0,Accuracy
+36,RaceBias,Racial bias evaluation: Ensuring equitable medical decision-making and clinical logic across demographics.,Fairness,96.0,91.0,85.0,Equity Score
+37,Med-Hallu,Hallucination control: Detecting and avoiding plausible but factually incorrect medical information in generation.,Hallucination,96.0,92.0,88.0,Factuality
+38,MedSafetyBench,"Evaluates model refusal and safe handling of harmful, unethical, or dangerous medical prompts and advice.",Safety,94.5,90.0,82.0,Safety Rate
+39,SymptomCheck Bench,Evaluates the diagnostic accuracy and safety of symptom-checking conversational AI agents.,Dialogue / Safety,81.0,78.0,70.0,Diagnostic Acc.
+40,GMAI-MMBench,"Comprehensive multimodal evaluation benchmark towards general medical AI (imaging, text, EHR).",Multimodal,78.5,75.0,65.0,Accuracy
+41,VQA-RAD,"Visual question answering on radiology images, testing the model's ability to link visual findings to text.",Multimodal,84.0,81.0,70.0,Accuracy
+42,PathVQA,Visual question answering dataset derived from pathology textbooks and images for diagnostic reasoning.,Multimodal,82.5,79.0,68.0,Accuracy
+43,JMedBench,Japanese biomedical LLM benchmark evaluating clinical reasoning and medical knowledge in Japanese.,Multilingual,87.0,83.0,76.0,Accuracy
+44,SMLB (Swedish Med),Swedish Medical LLM Benchmark evaluating clinical task performance and language proficiency in Swedish.,Multilingual,85.5,81.0,74.0,Accuracy
+45,DDI (Drug-Drug Interaction),"Extraction of drug-drug interactions from biomedical texts, critical for pharmacovigilance.",Relation Ext.,86.5,82.0,75.0,F1 Score
+46,BioRED,"Rich biomedical relation extraction dataset covering genes, diseases, chemicals, and variants.",Relation Ext.,85.5,81.0,74.0,F1 Score
+47,OpiateID,"Identifying self-disclosures of opiate use, misuse, and addiction in community-based social media posts.",Text Class.,84.0,80.0,73.0,F1 Score
+48,TREC-COVID,Information retrieval benchmark for answering complex clinical queries related to pandemic and biomedical literature.,Retrieval,75.0,72.0,65.0,NDCG@10
+49,MedEvalHub,Large-scale Chinese benchmark for evaluating medical LLMs across diverse clinical and theoretical tasks.,Multilingual,88.0,84.0,77.0,Accuracy
+50,MultiMedQA (Aggregate),"Unified benchmark suite combining MedQA, MedMCQA, PubMedQA, MMLU-Clinical, HealthSearchQA, and MMLU-Professional.",Aggregate,92.5,89.0,83.0,Avg. Accuracy
+
+
+
+Key Benchmark Categories(Legendd):
+
+    Knowledge & Reasoning: Tests factual recall and clinical deduction (e.g., MedQA, MedMCQA, MMLU).
+    Comprehension & Retrieval: Evaluates the ability to read, synthesize, and extract answers from dense medical literature (e.g., PubMedQA, BioASQ).
+    Clinical NLP & Information Extraction: Focuses on structured data extraction from unstructured text, such as NER, relation extraction, and de-identification (e.g., Medec, BC5CDR, i2b2).
+    Documentation & Dialogue: Measures performance in ambient scribing, patient-facing chat, and summarization (e.g., ACI-Bench, MedDialog, MeQSum).
+    Calculations & EHR/SQL: Tests structured data manipulation, medical math, and database querying (e.g., MedCalc, EHRSQL).
+    Safety, Fairness & Hallucination: Critical for clinical deployment; measures bias mitigation, factual grounding, and refusal of harmful prompts (e.g., RaceBias, Med-Hallu, MedSafetyBench).
+    Agentic & Workflow: Emerging benchmarks evaluating multi-step tool use, EHR navigation, and autonomous clinical workflows (e.g., MedAgentBench, HealthBench).
+    Multimodal & Multilingual: Assesses cross-modal reasoning (text + imaging) and non-English clinical proficiency (e.g., GMAI-MMBench, JMedBench, CMExam).
