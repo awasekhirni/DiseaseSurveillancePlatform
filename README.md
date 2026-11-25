@@ -18,3 +18,5 @@ https://www.sciencedirect.com/science/article/pii/S2667041021000100
 Applications of venom biodiversity in agriculture
 
 Need to add new modules to track and capture the impact
+
+Lets integrate this with biomedical llm
