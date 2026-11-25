@@ -57,3 +57,28 @@ Imagine having transparent information access to safegaurd.
 ,48 ,MAIRA-1 ,Multimodal (Vision + Language) ,Microsoft ,Specialized large multimodal model explicitly designed for radiology report generation. ,[Microsoft Research](https://www.microsoft.com/en-us/research/project/maira/) ,
 ,49 ,AMIE ,Emerging / Specialized Agents ,Google Research / DeepMind ,Artificial Intelligence Medical Expert for conversational diagnostic AI with high empathy. ,[Paper](https://arxiv.org/abs/2401.05654) ,
 ,50 ,Hippocratic AI / Polaris ,Emerging / Specialized Agents ,Hippocratic AI ,Specialized conversational AI agents for safe, role-specific healthcare workflows (e.g., triage). ,[Website](https://www.hippocraticai.com/) ,
+
+
+
+
+
+Alternative Medicine Large Language Models (Herbal)
+
+We are missing for Unani Medicine Large Language Model from middle east. This unani medicine should be available in multiple languages (arabic, farsi, urdu, hindi, malay and english)
+
+No#,Model Name,Category,Developer / Institute,Brief Description,Link(s)
+1,HerbWise,Traditional Herbal Medicine,Chengdu University of TCM,"Domain-specific LLM for traditional herbal medicine research, focusing on data integration, authentication, pharmacology, and genomics.",https://cbcb.cdutcm.edu.cn/HerbWise/
+2,BenCao,Traditional Chinese Medicine (TCM),Jiacheng Xie et al.,"Instruction-tuned, multimodal assistant integrating textual and visual information for TCM symptoms and structured herbal knowledge bases.",https://arxiv.org/abs/2510.17415
+3,Qibo,Traditional Chinese Medicine (TCM),Y Jia et al.,TCM-specific LLM implemented from pre-training to Supervised Fine-Tuning (SFT) to enhance Chinese medical and herbal capabilities.,https://www.sciencedirect.com/science/article/pii/S0957417425012941
+4,TCM-DS,Traditional Chinese Medicine (TCM),X Li et al.,Domain-specific prescription recommendation model enriched by TCM edible herbal formula knowledge for intelligent clinical decision support.,https://link.springer.com/article/10.1186/s13020-025-01249-0
+5,TCM-FTP,Traditional Chinese Medicine (TCM),X Zhou et al.,Model fine-tuned specifically for herbal prescription prediction using expert feedback and real-world multi-turn clinical data.,https://www.computer.org/csdl/proceedings-article/bibm/2024/10822451/23oozYAwIIE
+6,TCMHP,Traditional Chinese Medicine (TCM),W Gao et al.,"LLM for TCM health preservation trained on 180,000 conversation pairs covering diet, exercise, and herbal health scenarios.",https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13692/136924U/TCMHP--a-large-language-model-for-traditional-Chinese-medicine/10.1117/12.3068496.full
+7,Zhongjing,Traditional Chinese Medicine (TCM),Z Chen et al.,LLM designed to enhance Chinese medical capabilities of foundation models with a strong focus on herbal and acupuncture medicine.,https://www.ovid.com/jnls/ahm/fulltext/10.1097/hm9.0000000000000143
+8,TCM-Agent,Network Pharmacology / Agentic,X Wang et al.,Multi-agent framework powered by LLMs designed to automate network pharmacology workflows and advance herbal medicine research.,https://www.sciencedirect.com/science/article/pii/S2095177926000365
+9,AyurParam,Ayurveda,BharatGen / IIT,2.9B-parameter bilingual (English-Hindi) model fine-tuned on 4.8 million Ayurveda samples for knowledge preservation and access.,https://huggingface.co/bharatgenai/AyurParam
+10,AyurGPT,Ayurveda,Trigent / Independent,Domain-specialized model leveraging RAG architecture to deliver precise Ayurvedic health advice and align ancient texts with modern terminology.,https://github.com/mrinoybanerjee/AyurBot
+11,AyuRAG,Ayurveda,A Swaroop et al.,Framework integrating Ayurvedic knowledge with Retrieval-Augmented Generation (RAG) and LLMs for context-dependent retrieval of principles.,https://www.semanticscholar.org/paper/AyuRAG%3A-Ayurvedic-Knowledge-Integration-with-Large-Swaroop-Salman/9ac07cb6e3d6ccd19292c0fa92feb285a7dc95d4
+12,AyurSanvaad,Ayurveda,S Pol et al.,"Multilingual chatbot for Ayurvedic consultation using LLMs, enabling natural interaction in over 22 languages via dual semantic search backends.",https://www.atlantis-press.com/article/126015230.pdf
+13,HerbalMedicine.ai,General Herbalism / EdTech,HerbalMedicine.ai,AI-powered herb tutor and learning tool combining cutting-edge technology with traditional herbal wisdom for personalized education.,https://store.herbalmedicine.ai/
+14,Botanical Trait Extraction LLM,Botanical / Herbarium,A Nainia et al.,Two-stage information extraction pipeline fine-tuning LLaMA-based LLMs to extract structured botanical traits from scientific literature.,https://biss.pensoft.net/article/183035/
+
